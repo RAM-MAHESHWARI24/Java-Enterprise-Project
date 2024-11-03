@@ -37,6 +37,7 @@
             	<div class="col-md-4">
                   	<div class="card paint-card">
                        	<div class="card-body text-center text-success">
+                             	
                              	<p  class="fs-4 text-center " >
                                   	Doctor <br>  <%=dao.countDoctor()%>
                              	</p>
