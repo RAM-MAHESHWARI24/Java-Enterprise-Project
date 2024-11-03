@@ -37,7 +37,7 @@
             	<div class="col-md-4">
                   	<div class="card paint-card">
                        	<div class="card-body text-center text-success">
-                             	<i class="fas fa-user-md fa-3x"></i><br>
+                             	
                              	<p  class="fs-4 text-center " >
                                   	Doctor <br>  <%=dao.countDoctor()%>
                              	</p>
@@ -50,7 +50,7 @@
             	<div class="col-md-4">
                   	<div class="card paint-card">
                        	<div class="card-body text-center text-success">
-                             	<i class="fas fa-user-circle fa-3x"></i><br>
+                             	
                              	<p class="fs-4 text-center" >
                                   	User <br><%=dao.countUSer()%>
                              	</p>
@@ -61,7 +61,7 @@
             	<div class="col-md-4">
                   	<div class="card paint-card">
                        	<div class="card-body text-center text-success">
-                             	<i class="far fa-calendar-check fa-3x"></i><br>
+                             
                              	<p class="fs-4 text-center" >
                                   	Total Appointment <br> <%=dao.countAppointment()%>
                              	</p>
@@ -74,7 +74,7 @@
                   	<div class="card paint-card " data-bs-toggle="modal"
                        	data-bs-target="#exampleModal">
                        	<div class="card-body text-center text-success">
-                             	<i class="far fa-calendar-check fa-3x"></i><br>
+                             	
                              	<p class="fs-4 text-center">
                                   	Specialist <br> <%=dao.countSpecialist()%>
                              	</p>

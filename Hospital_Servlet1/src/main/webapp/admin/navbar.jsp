@@ -4,8 +4,8 @@
 
 <nav class="navbar navbar-expand-lg bg-light text-dark">
  	<div class="container-fluid">
-       	<div class="logo ">
-			<a href="index.jsp"><img src="../assets/img/logo/logo.png" alt=""></a>
+       	<div class="logo">
+			<img src="../assets/img/logo/logo.png" alt="">
 		</div>
        	<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             	data-bs-target="#navbarSupportedContent"

@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg bg-light text-dark">
 	<div class="container-fluid">
 		<div class="logo">
-			<a href="index.jsp"><img src="../assets/img/logo/logo.png" alt=""></a>
+			<a href="index1.jsp"><img src="../assets/img/logo/logo.png" alt=""></a>
 		</div>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 			data-bs-target="#navbarSupportedContent"
@@ -25,8 +25,6 @@
 						<i class="fas fa-user-circle"></i> ${doctObj.fullName }
 					</button>
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-						<li><a class="dropdown-item" href="edit_profile.jsp">Edit
-								Profile</a></li>
 						<li><a class="dropdown-item" href="../doctorLogout">Logout</a></li>
 					</ul>
 				</div>

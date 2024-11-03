@@ -38,8 +38,6 @@ height: 10%;
 								<div class="main-menu f-right d-none d-lg-block">
 									<nav>
 										<ul id="navigation">
-											<li><a href="index1.jsp">Home</a></li>
-											<li><a href="about.jsp">About</a></li>
 											<li><a href="admin_login.jsp">Admin</a></li>
 											<li><a href="doctor_login.jsp">Doctor</a></li>
 											<li><a href="user_login.jsp">User</a></li>
