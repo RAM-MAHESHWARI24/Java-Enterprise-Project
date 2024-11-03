@@ -81,7 +81,27 @@ response.setDateHeader("Expires", 0);
 									maxlength="10" required type="number" class="form-control"
 									name="phno">
 							</div>
-
+							
+							<div class="col-md-6">
+								<label for="inputEmail4" class="form-label">Address</label> 
+								<input
+									 required type="text" class="form-control"
+									name="address">
+							</div>
+							
+							<div class="col-md-6">
+								<label for="inputEmail4" class="form-label">Disease</label> 
+								<input
+									 required type="text" class="form-control"
+									name="diseases">
+							</div>
+							
+							<div class="col-md-6">
+								<label for="inputEmail4" class="form-label">Email</label> 
+								<input
+									 required type="email" class="form-control"
+									name="email">
+							</div>
 
 							<div class="col-md-6">
 								<label for="inputPassword4" class="form-label">Doctor</label> <select
@@ -103,11 +123,11 @@ response.setDateHeader("Expires", 0);
 
 							<c:if test="${empty userObj }">
 								<a href="user_login.jsp" class="col-md-6 btn btn-danger m-auto mt-3">Login Here!</a>
-								<!-- <button class="col-md-6 offset-md-3 btn btn-success">Submit</button> -->
+								
 							</c:if>
 
 							<c:if test="${not empty userObj }">
-								<button class="col-md-6 offset-md-3 btn btn-success">Submit</button>
+								<button type="submit" class="col-md-6 offset-md-3 btn btn-success">Submit</button>
 							</c:if>
 						</form>
 					</div>
