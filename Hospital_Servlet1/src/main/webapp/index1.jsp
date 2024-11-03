@@ -58,47 +58,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<!-- single Tem -->
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-						<div class="single-team mb-30">
-						
-							<div class="team-caption">
-								<h3>
-									<a href="#">Kartik Lakra</a>
-								</h3>
-								<span>Cardiologist</span>
-								<!-- Team social -->
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-						<div class="single-team mb-30">
-							
-							<div class="team-caption">
-								<h3>
-									<a href="#">Hemonesh</a>
-								</h3>
-								<span>Dentist</span>
-								<!-- Team social -->
-								
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-						<div class="single-team mb-30">
-							
-							<div class="team-caption">
-								<h3>
-									<a href="#">Anshika Rathore</a>
-								</h3>
-								<span>Radiologist</span>
-								<!-- Team social -->
-								
-							</div>
-						</div>
-					</div>
+				<div class="text-center justify-content-center">
+				<h1 class="text-center ">Welcome to Our Hospitals Home Page</h1>
+				<h1 class="text-center bold">We take legit concern about your health</h1>
 				</div>
 			</div>
 		</div>

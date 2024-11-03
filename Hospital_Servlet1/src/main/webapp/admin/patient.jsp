@@ -78,7 +78,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fulid backImg p-5">
+	<div class="container-fulid p-5">
 		<p class="text-center fs-2 text-white"></p>
 	</div>
 </body>
