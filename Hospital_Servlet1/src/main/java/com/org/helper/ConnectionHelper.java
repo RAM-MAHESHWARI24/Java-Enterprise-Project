@@ -9,7 +9,8 @@ public class ConnectionHelper {
 
     private static final String URL = "jdbc:mysql://localhost:3306/?useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "Kartik@21lakra";
+//    private static final String PASSWORD = "Kartik@21lakra";
+    private static final String PASSWORD = "A@34e678";
 
     public static Connection getConObj() {
         Connection con = null;

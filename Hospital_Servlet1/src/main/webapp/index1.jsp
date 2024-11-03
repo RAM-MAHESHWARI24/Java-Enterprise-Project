@@ -1,52 +1,101 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Medical Home</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="manifest" href="site.webmanifest">
-<link rel="shortcut icon" type="image/x-icon"
-	href="assets/img/favicon.ico">
-
+<meta charset="ISO-8859-1">
+<title>Hospital Home</title>
+<%@ include file="component/allcss.jsp"%>
+<style type="text/css">
+.paint-card {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+</style>
 <!-- CSS here -->
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/css/flaticon.css">
-<link rel="stylesheet" href="assets/css/gijgo.css">
-<link rel="stylesheet" href="assets/css/animate.min.css">
-<link rel="stylesheet" href="assets/css/animated-headline.css">
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
-<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="assets/css/themify-icons.css">
-<link rel="stylesheet" href="assets/css/slick.css">
-<link rel="stylesheet" href="assets/css/nice-select.css">
-<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/themify-icons.css">
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-	<!--  <!-- ? Preloader Start 
-	<div id="preloader-active">
-		<div
-			class="preloader d-flex align-items-center justify-content-center">
-			<div class="preloader-inner position-relative">
-				<div class="preloader-circle"></div>
-				<div class="preloader-img pere-text">
-					<img src="assets/img/logo/loder.png" alt="">
+	<%@ include file="component/navbar.jsp"%>
+
+	
+	<main>
+	<!--? department_area_start  -->
+    
+	<div class="container p-3">
+		<p class="text-center fs-2 ">Key Features of our Hospital</p>
+
+		<div class="row">
+			<div class="col-md-8 p-5">
+				<div class="row">
+					<div class="col-md-6 p-4">
+						<div class="card paint-card">
+							<div class="card-body">
+								<p class="fs-5">100% Safety</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 p-4">
+						<div class="card paint-card">
+							<div class="card-body">
+								<p class="fs-5">Clean Environment</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-2 p-4">
+						<div class="card paint-card">
+							<div class="card-body">
+								<p class="fs-5">Friendly Doctors</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-2 p-4" >
+						<div class="card paint-card">
+							<div class="card-body">
+								<p class="fs-5">Medical Research</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-3 p-4">
+						<div class="card paint-card">
+							<div class="card-body">
+								<p class="fs-5"> 24 x 7 service</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-3 p-4">
+						<div class="card paint-card">
+							<div class="card-body">
+								<p class="fs-5">Advanced Equipment</p>
+								
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+
+			
 		</div>
 	</div>
-	
-	-->
 
-	<%@ include file="component/navbar2.jsp"%>
-	<!-- main part -->
-	<main>
-		
-		<!--? Team Start -->
+
+<hr>
+	
+	<!--? Team Start -->
 		<div class="team-area section-padding30">
 			<div class="container">
 				<!-- Section Tittle -->
@@ -58,55 +107,52 @@
 						</div>
 					</div>
 				</div>
-				<div class="text-center justify-content-center">
-				<h1 class="text-center ">Welcome to Our Hospitals Home Page</h1>
-				<h1 class="text-center bold">We take legit concern about your health</h1>
+				<div class="row">
+					<!-- single Tem -->
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+						<div class="single-team mb-30">
+						
+							<div class="team-caption">
+								<h3>
+									<a href="#">Kartik Lakra</a>
+								</h3>
+								<span>Cardiologist</span>
+								<!-- Team social -->
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+						<div class="single-team mb-30">
+							
+							<div class="team-caption">
+								<h3>
+									<a href="#">Hemonesh</a>
+								</h3>
+								<span>Dentist</span>
+								<!-- Team social -->
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
+						<div class="single-team mb-30">
+							
+							<div class="team-caption">
+								<h3>
+									<a href="#">Anshika</a>
+								</h3>
+								<span>Dermatologist</span>
+								<!-- Team social -->
+								
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Team End -->
-	</main>
-	
-	<!-- Scroll Up -->
-	
+    </main>
 
-	<!-- JS here -->
-
-	<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-	<!-- Jquery, Popper, Bootstrap -->
-	<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<script src="./assets/js/popper.min.js"></script>
-	<script src="./assets/js/bootstrap.min.js"></script>
-	<!-- Jquery Mobile Menu -->
-	<script src="./assets/js/jquery.slicknav.min.js"></script>
-
-	<!-- Jquery Slick , Owl-Carousel Plugins -->
-	<script src="./assets/js/owl.carousel.min.js"></script>
-	<script src="./assets/js/slick.min.js"></script>
-	<!-- One Page, Animated-HeadLin -->
-	<script src="./assets/js/wow.min.js"></script>
-	<script src="./assets/js/animated.headline.js"></script>
-	<script src="./assets/js/jquery.magnific-popup.js"></script>
-
-	<!-- Date Picker -->
-	<script src="./assets/js/gijgo.min.js"></script>
-	<!-- Nice-select, sticky -->
-	<script src="./assets/js/jquery.nice-select.min.js"></script>
-	<script src="./assets/js/jquery.sticky.js"></script>
-
-	<!-- counter , waypoint -->
-	<script src="./assets/js/jquery.counterup.min.js"></script>
-	<script src="./assets/js/waypoints.min.js"></script>
-	<script src="./assets/js/jquery.countdown.min.js"></script>
-	<!-- contact js -->
-	<script src="./assets/js/contact.js"></script>
-	<script src="./assets/js/jquery.form.js"></script>
-	<script src="./assets/js/jquery.validate.min.js"></script>
-	<script src="./assets/js/mail-script.js"></script>
-	<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-
-	<!-- Jquery Plugins, main Jquery -->
-	<script src="./assets/js/plugins.js"></script>
-	<script src="./assets/js/main.js"></script>
+<%@ include file="component/footer.jsp" %>
 </body>
 </html>

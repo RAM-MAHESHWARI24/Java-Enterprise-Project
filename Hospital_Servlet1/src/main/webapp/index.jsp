@@ -138,11 +138,11 @@
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
 						<div class="single-team mb-30">
 							
-							<div class="">
+							<div class="team-caption">
 								<h3>
-									<a href="#">Anshika Rathore</a>
+									<a href="#">Anshika</a>
 								</h3>
-								<span>Radiologist</span>
+								<span>Dermatologist</span>
 								<!-- Team social -->
 								
 							</div>

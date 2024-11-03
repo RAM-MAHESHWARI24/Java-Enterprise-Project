@@ -23,11 +23,11 @@ public class AppointmentServlet extends HttpServlet {
 		String gender = req.getParameter("gender");
 		String age = req.getParameter("age");
 		String appoint_date = req.getParameter("appoint_date");
-		String email = req.getParameter("email");
+//		String email = req.getParameter("email");
 		String phno = req.getParameter("phno");
-		String diseases = req.getParameter("diseases");
+//		String diseases = req.getParameter("diseases");
 		int doctor_id = Integer.parseInt(req.getParameter("doct"));
-		String address = req.getParameter("address");
+//		String address = req.getParameter("address");
 
 		Appointment ap = new Appointment(userId, fullname, gender, age, appoint_date, email, phno, diseases, doctor_id,
 				address, "Pending");
