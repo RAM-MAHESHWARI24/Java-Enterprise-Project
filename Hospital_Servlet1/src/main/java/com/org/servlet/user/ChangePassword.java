@@ -22,10 +22,11 @@ public class ChangePassword extends HttpServlet {
 
 		UserDao dao = new UserDao();
 		HttpSession session = req.getSession();
+		String[] errorMsg = new String[1]; // Create an array for error messages
 
 		if (dao.checkOldPassword(uid, oldPassword)) {
-
-			if (dao.changePassword(uid, newPassword)) {
+			
+			if (dao.changePassword(uid, newPassword,errorMsg)) {
 				session.setAttribute("succMsg", "Password Change Sucessfully");
 				resp.sendRedirect("change_password.jsp");
 

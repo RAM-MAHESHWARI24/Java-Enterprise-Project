@@ -11,11 +11,11 @@ public class Appointment {
 	private String phNo;
 	private String diseases;
 	private int doctorId;
-	private String address;
+//	private String address;
 	private String status;
 	
 	public Appointment(int userId, String fullName, String gender, String age, String appoinDate, String email,
-			String phNo, String diseases, int doctorId, String address, String status) {
+			String phNo, String diseases, int doctorId, String status) {
 		
 		this.userId = userId;
 		this.fullName = fullName;
@@ -26,7 +26,6 @@ public class Appointment {
 		this.phNo = phNo;
 		this.diseases = diseases;
 		this.doctorId = doctorId;
-		this.address = address;
 		this.status = status;
 	}
 
@@ -115,13 +114,7 @@ public class Appointment {
 		this.doctorId = doctorId;
 	}
 
-	public String getAddress() {
-		return address;
-	}
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
 
 	public String getStatus() {
 		return status;

@@ -43,7 +43,6 @@
 							<th scope="col">Mob No</th>
 							<th scope="col">Diseases</th>
 							<th scope="col">Doctor Name</th>
-							<th scope="col">Address</th>
 							<th scope="col">Status</th>
 						</tr>
 					</thead>
@@ -64,7 +63,6 @@
 							<td><%=ap.getPhNo()%></td>
 							<td><%=ap.getDiseases()%></td>
 							<td><%=d.getFullName()%></td>
-							<td><%=ap.getAddress()%></td>
 							<td><%=ap.getStatus()%></td>
 						</tr>
 						<%

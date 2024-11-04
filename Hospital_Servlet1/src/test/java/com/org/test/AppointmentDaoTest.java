@@ -37,7 +37,7 @@ public class AppointmentDaoTest {
         appointment.setPhNo("1234567890"); // Hardcoded phone number
         appointment.setDiseases("Flu"); // Hardcoded disease
         appointment.setDoctorId(1); // Hardcoded doctor ID
-        appointment.setAddress("123 Street Name, City"); // Hardcoded address
+//        appointment.setAddress("123 Street Name, City"); // Hardcoded address
         appointment.setStatus("Pending"); // Hardcoded status
 
         boolean result = appointmentDao.addAppointment(appointment);

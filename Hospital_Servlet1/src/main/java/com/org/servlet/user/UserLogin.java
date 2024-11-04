@@ -20,13 +20,13 @@ public class UserLogin extends HttpServlet{
 		String password = req.getParameter("password");
 		
 		UserDao dao = new  UserDao();
-		User u = dao.Login(email, password);
+		User u = dao.login(email, password);
 		HttpSession hs = req.getSession();
 		
 		if(u!=null)
 		{
 			hs.setAttribute("userObj", u);
-			resp.sendRedirect("index.jsp");
+			resp.sendRedirect("index1.jsp");
 		}
 		else
 		{

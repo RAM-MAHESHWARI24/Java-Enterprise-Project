@@ -9,20 +9,24 @@
 <style type="text/css">
 .paint-card {
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-}
-.backImg {
-	background:
-		url("img/banner4.png");
-	height: 40vh;
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-</style>
+	}
+	 /* Sticky footer styles */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1; /* This allows the content to grow and take available space */
+        }
+    </style>
 </head>
 <body>
 	<%@ include file="component/navbar.jsp"%>
-
+	<div class="content">
 	<div class="container p-5">
 		<div class="row">
 			<div class="col-md-4 offset-md-4">
@@ -57,6 +61,7 @@
 						<br> Don't have an account? <a href="signup.jsp"
 							class="text-decoration-none"> create one</a>
 
+					</div>
 					</div>
 				</div>
 			</div>

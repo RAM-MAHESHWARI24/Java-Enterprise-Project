@@ -17,10 +17,10 @@
             	<ul class="navbar-nav me-auto mb-2 mb-lg-0">
  
                   	<li class="nav-item"><a class="nav-link active" aria-current="page" href="index.jsp">HOME</a></li>
-                  	<li class="nav-item"><a class="nav-link active" aria-current="page" href="doctor.jsp">DOCTOR</a></li>
+                  	<li class="nav-item"><a class="nav-link active" aria-current="page" href="doctor.jsp">ADD DOCTOR</a></li>
                   	<li class="nav-item"><a class="nav-link active" aria-current="page" href="view_doctor.jsp">VIEW DOCTOR</a></li>
-                  	<li class="nav-item"><a class="nav-link active" aria-current="page" href="patient.jsp">PATIENT</a></li>
- 
+                  	<li class="nav-item"><a class="nav-link active" aria-current="page" href="patient.jsp">VIEW PATIENT</a></li>
+ 					<li class="nav-item"><a class="nav-link active" aria-current="page" href="AllUsers.jsp">VIEW USERS</a></li>
  
             	</ul>
  
