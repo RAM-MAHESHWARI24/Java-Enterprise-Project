@@ -6,9 +6,9 @@ public class User {
     private String fullname;
     private String email;
     private String password;
-    private int age; // Ensure this is included if you're using it
-    private String gender; // Ensure this is included if you're using it
-    private String phno; // Use 'phno' as per your database schema
+    private int age; 
+    private String gender; 
+    private String phno; 
 
     // Constructor with parameters
     public User(String fullname, String email, String password, int age, String gender, String phno) {
@@ -17,7 +17,7 @@ public class User {
         this.password = password;
         this.age = age;
         this.gender = gender;
-        this.phno = phno; // Correctly assign phno
+        this.phno = phno; 
     }
 
     // No-arg constructor
@@ -73,10 +73,10 @@ public class User {
     }
 
     public String getPhno() {
-        return phno; // Add getter for phno
+        return phno; 
     }
 
     public void setPhno(String phno) {
-        this.phno = phno; // Add setter for phno
+        this.phno = phno; 
     }
 }

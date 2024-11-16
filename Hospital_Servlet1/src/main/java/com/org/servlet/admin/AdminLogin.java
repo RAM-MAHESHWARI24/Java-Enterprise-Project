@@ -32,5 +32,4 @@ public class AdminLogin extends HttpServlet {
 			resp.sendRedirect("admin_login.jsp");
 		}
 	}
-
 }
